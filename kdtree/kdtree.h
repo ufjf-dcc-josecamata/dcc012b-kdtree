@@ -96,7 +96,6 @@ class KDTree
         size_t _size;
 };
 
-// TODO: Implementar o método insert.
 
 template <typename T, size_t dim>
 void KDTree<T, dim>::insert(const Point<T,dim>& p)
@@ -116,7 +115,7 @@ void KDTree<T, dim>::insert(const Point<T,dim>& p)
 }
 
 
-
+// TODO: Implementar o método insert.
 template <typename T, size_t dim>
 void KDTree<T, dim>::insert(KDTreeNode<T, dim>* node, const Point<T,dim>& point)
 {
